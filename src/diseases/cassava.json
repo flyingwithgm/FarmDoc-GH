@@ -1,1 +1,19 @@
-
+{
+  "name": "Cassava",
+  "local_name": "Bankyi",
+  "diseases": [
+    {
+      "id": "cassava_mosaic",
+      "symptoms": "Mosaic patterns on leaves, twisted leaflets",
+      "treatment": "Use virus-free cuttings, control whiteflies",
+      "color_triggers": ["yellow", "green"]
+    },
+    {
+      "id": "cassava_brown_streak",
+      "symptoms": "Brown streaks on stems, root rot",
+      "treatment": "Use resistant varieties, remove infected plants",
+      "color_triggers": ["brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
