@@ -1,1 +1,20 @@
 
+{
+  "name": "Yam",
+  "local_name": "Nyame",
+  "diseases": [
+    {
+      "id": "yam_mosaic",
+      "symptoms": "Mosaic patterns on leaves, stunted growth",
+      "treatment": "Use virus-free planting material, control aphids",
+      "color_triggers": ["yellow", "green"]
+    },
+    {
+      "id": "anthracnose",
+      "symptoms": "Dark sunken lesions on stems and leaves",
+      "treatment": "Apply fungicide, improve air circulation",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
