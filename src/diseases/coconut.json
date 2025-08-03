@@ -1,1 +1,19 @@
-
+{
+  "name": "Coconut",
+  "local_name": "Kɔkɔnut",
+  "diseases": [
+    {
+      "id": "lethal_yellowing",
+      "symptoms": "Yellowing fronds, nut fall",
+      "treatment": "Inject oxytetracycline, remove infected trees",
+      "color_triggers": ["yellow"]
+    },
+    {
+      "id": "bud_rot",
+      "symptoms": "Blackened spear leaf, foul smell",
+      "treatment": "Remove infected trees, control rhinoceros beetle",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
