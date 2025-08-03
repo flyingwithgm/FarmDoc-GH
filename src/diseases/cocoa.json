@@ -1,1 +1,21 @@
 
+{
+  "name": "Cocoa",
+  "local_name": "Kookoo",
+  "diseases": [
+    {
+      "id": "black_pod",
+      "symptoms": "Dark brown to black pods, soft and watery",
+      "treatment": "Remove infected pods, apply fungicide",
+      "color_triggers": ["black", "brown"]
+    },
+    {
+      "id": "witches_broom",
+      "symptoms": "Excessive branching, small leaves",
+      "treatment": "Prune affected branches, control insect vectors",
+      "color_triggers": ["green"],
+      "shape_triggers": ["linear"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
