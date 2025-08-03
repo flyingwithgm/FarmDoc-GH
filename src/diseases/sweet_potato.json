@@ -1,1 +1,19 @@
-
+{
+  "name": "Sweet Potato",
+  "local_name": "Apɔn",
+  "diseases": [
+    {
+      "id": "sweet_potato_feather",
+      "symptoms": "Feathery chlorotic patterns on leaves",
+      "treatment": "Control whiteflies, use virus-free vines",
+      "color_triggers": ["yellow", "green"]
+    },
+    {
+      "id": "black_rot",
+      "symptoms": "Dark lesions on storage roots",
+      "treatment": "Use healthy storage roots, treat wounds",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
