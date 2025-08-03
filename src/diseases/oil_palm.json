@@ -1,1 +1,20 @@
-
+{
+  "name": "Oil Palm",
+  "local_name": "Abe",
+  "diseases": [
+    {
+      "id": "basal_stem_rot",
+      "symptoms": "Yellowing fronds, rotting stem base",
+      "treatment": "Uproot tree, apply Trichoderma",
+      "color_triggers": ["yellow", "brown"],
+      "shape_triggers": ["rotten_circular"]
+    },
+    {
+      "id": "bud_rot",
+      "symptoms": "Collapsed spear leaf, foul odor",
+      "treatment": "Cut infected tissue, spray copper",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
