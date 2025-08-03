@@ -1,1 +1,20 @@
-
+{
+  "name": "Rice",
+  "local_name": "Sasali",
+  "diseases": [
+    {
+      "id": "rice_blast",
+      "symptoms": "Diamond-shaped lesions on leaves, neck rot",
+      "treatment": "Apply fungicide, use resistant varieties",
+      "color_triggers": ["brown", "black"],
+      "shape_triggers": ["diamond"]
+    },
+    {
+      "id": "bacterial_blight",
+      "symptoms": "Water-soaked streaks on leaves, wilting",
+      "treatment": "Use disease-free seeds, apply bactericide",
+      "color_triggers": ["yellow", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
