@@ -1,1 +1,19 @@
-
+{
+  "name": "Mango",
+  "local_name": "Mango",
+  "diseases": [
+    {
+      "id": "anthracnose",
+      "symptoms": "Black spots on flowers, fruits and leaves",
+      "treatment": "Apply fungicide, remove infected parts",
+      "color_triggers": ["black", "brown"]
+    },
+    {
+      "id": "powdery_mildew",
+      "symptoms": "White powdery growth on leaves",
+      "treatment": "Apply sulfur spray, improve air circulation",
+      "color_triggers": ["white"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
