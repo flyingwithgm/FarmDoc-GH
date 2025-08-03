@@ -1,1 +1,20 @@
-
+{
+  "name": "Tomato",
+  "local_name": "Tomato",
+  "diseases": [
+    {
+      "id": "early_blight",
+      "symptoms": "Dark spots with concentric rings on leaves",
+      "treatment": "Apply fungicide, remove affected leaves",
+      "color_triggers": ["brown"],
+      "shape_triggers": ["circular"]
+    },
+    {
+      "id": "late_blight",
+      "symptoms": "Water-soaked lesions on leaves, white mold",
+      "treatment": "Remove infected plants, apply fungicide",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
