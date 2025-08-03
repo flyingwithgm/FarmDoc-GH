@@ -1,1 +1,20 @@
-
+{
+  "name": "Groundnut",
+  "local_name": "Nut",
+  "diseases": [
+    {
+      "id": "early_leaf_spot",
+      "symptoms": "Dark spots with yellow halos on leaves",
+      "treatment": "Apply fungicide, rotate crops",
+      "color_triggers": ["brown", "yellow"],
+      "shape_triggers": ["circular"]
+    },
+    {
+      "id": "rust",
+      "symptoms": "Orange pustules on leaves",
+      "treatment": "Apply fungicide, remove infected leaves",
+      "color_triggers": ["orange"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
