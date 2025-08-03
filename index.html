@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Offline crop disease detection for Ghanaian farmers">
+    <meta name="theme-color" content="#4CAF50">
+    <title>FarmDoc-GH</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <span class="logo">🌱</span>
+            <h1>FarmDoc-GH</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="crop-selection">
+            <h2>Select Crop</h2>
+            <div id="crop-grid" class="crop-grid">
+                <!-- Crop buttons will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="analysis-section" class="hidden">
+            <h2>Disease Analysis</h2>
+            <div class="upload-container">
+                <input type="file" id="image-upload" accept="image/*" capture="environment">
+                <label for="image-upload" class="upload-btn">
+                    <span>📸 Capture or Upload Image</span>
+                </label>
+                <canvas id="image-canvas" class="hidden"></canvas>
+            </div>
+            <div id="result-container" class="result-card hidden">
+                <h3>Disease Detected</h3>
+                <div id="disease-result">
+                    <!-- Results will be populated here -->
+                </div>
+                <button id="reset-btn">Check Another Crop</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built for Tecno Pop 9 by George Nuyekpe</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
