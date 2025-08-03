@@ -1,1 +1,19 @@
-
+{
+  "name": "Okra",
+  "local_name": "Bamia",
+  "diseases": [
+    {
+      "id": "fusarium_wilt",
+      "symptoms": "Yellowing leaves, wilting, vascular discoloration",
+      "treatment": "Use resistant varieties, rotate crops",
+      "color_triggers": ["yellow", "brown"]
+    },
+    {
+      "id": "powdery_mildew",
+      "symptoms": "White powdery coating on leaves",
+      "treatment": "Apply sulfur spray, improve air circulation",
+      "color_triggers": ["white"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
