@@ -1,1 +1,20 @@
-
+{
+  "name": "Pepper",
+  "local_name": "Pepa",
+  "diseases": [
+    {
+      "id": "phytophthora_blight",
+      "symptoms": "Dark water-soaked lesions, fruit rot",
+      "treatment": "Improve drainage, apply fungicide",
+      "color_triggers": ["black", "brown"]
+    },
+    {
+      "id": "bacterial_spot",
+      "symptoms": "Small dark spots on leaves and fruit",
+      "treatment": "Use disease-free seeds, apply copper spray",
+      "color_triggers": ["black", "brown"],
+      "shape_triggers": ["circular"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
