@@ -1,1 +1,20 @@
-
+{
+  "name": "Plantain",
+  "local_name": "Apantu",
+  "diseases": [
+    {
+      "id": "black_sigatoka",
+      "symptoms": "Dark streaks on leaves, yellow halos",
+      "treatment": "Remove infected leaves, apply fungicide",
+      "color_triggers": ["black", "yellow"],
+      "shape_triggers": ["linear"]
+    },
+    {
+      "id": "panama_wilt",
+      "symptoms": "Yellowing leaves, wilting, stem splitting",
+      "treatment": "Remove infected plants, improve drainage",
+      "color_triggers": ["yellow", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
