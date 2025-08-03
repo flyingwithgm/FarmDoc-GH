@@ -1,1 +1,20 @@
-
+{
+  "name": "Beans",
+  "local_name": "Beans",
+  "diseases": [
+    {
+      "id": "angular_leaf_spot",
+      "symptoms": "Angular brown spots on leaves",
+      "treatment": "Apply fungicide, rotate crops",
+      "color_triggers": ["brown"],
+      "shape_triggers": ["angular"]
+    },
+    {
+      "id": "rust",
+      "symptoms": "Orange pustules on leaves",
+      "treatment": "Apply fungicide, remove infected leaves",
+      "color_triggers": ["orange"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
