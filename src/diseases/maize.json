@@ -1,1 +1,20 @@
-
+{
+  "name": "Maize",
+  "local_name": "Dze",
+  "diseases": [
+    {
+      "id": "maize_streak_virus",
+      "symptoms": "Chlorotic streaks on leaves, stunted growth",
+      "treatment": "Use resistant varieties, control leafhoppers",
+      "color_triggers": ["yellow", "green"]
+    },
+    {
+      "id": "northern_leaf_blight",
+      "symptoms": "Large cigar-shaped lesions on leaves",
+      "treatment": "Apply fungicide, rotate crops",
+      "color_triggers": ["brown"],
+      "shape_triggers": ["linear"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
