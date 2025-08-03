@@ -1,1 +1,19 @@
-
+{
+  "name": "Cowpea",
+  "local_name": "Nkotokoto",
+  "diseases": [
+    {
+      "id": "cowpea_mosaic",
+      "symptoms": "Mosaic patterns on leaves, stunted growth",
+      "treatment": "Control aphids, remove infected plants",
+      "color_triggers": ["yellow", "green"]
+    },
+    {
+      "id": "anthracnose",
+      "symptoms": "Dark lesions on pods and stems",
+      "treatment": "Apply fungicide, rotate crops",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
