@@ -1,0 +1,207 @@
+/* styles.css */
+:root {
+    --primary-green: #4CAF50;
+    --light-green: #C8E6C9;
+    --cream: #FFF8E1;
+    --dark-green: #2E7D32;
+    --text-dark: #333;
+    --text-light: #666;
+    --border-radius: 8px;
+    --shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--cream);
+    color: var(--text-dark);
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+h1 {
+    color: var(--primary-green);
+    font-size: 1.8rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.crop-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.crop-btn {
+    background: white;
+    border: 2px solid var(--light-green);
+    border-radius: var(--border-radius);
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.crop-btn:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary-green);
+}
+
+.crop-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--primary-green);
+}
+
+.crop-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.upload-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#image-upload {
+    display: none;
+}
+
+.upload-btn {
+    display: inline-block;
+    background: var(--primary-green);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+    transition: background 0.3s;
+}
+
+.upload-btn:hover {
+    background: var(--dark-green);
+}
+
+.result-card {
+    background: white;
+    border: 2px dashed var(--primary-green);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: var(--shadow);
+}
+
+.result-card h3 {
+    color: var(--primary-green);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.disease-info {
+    margin-bottom: 20px;
+}
+
+.disease-name {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: var(--dark-green);
+}
+
+.symptoms, .treatment {
+    margin-bottom: 15px;
+}
+
+.symptoms strong, .treatment strong {
+    color: var(--primary-green);
+}
+
+#reset-btn {
+    background: var(--primary-green);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    transition: background 0.3s;
+}
+
+#reset-btn:hover {
+    background: var(--dark-green);
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .crop-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .header-content h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .crop-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    body {
+        padding: 15px;
+    }
+}
