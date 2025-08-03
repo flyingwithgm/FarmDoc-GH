@@ -1,1 +1,19 @@
-
+{
+  "name": "Garden Egg",
+  "local_name": "Garden Egg",
+  "diseases": [
+    {
+      "id": "bacterial_wilt",
+      "symptoms": "Wilting, stem rot, bacterial ooze",
+      "treatment": "Remove infected plants, control insects",
+      "color_triggers": ["brown", "black"]
+    },
+    {
+      "id": "phytophthora_blight",
+      "symptoms": "Dark water-soaked lesions on fruit",
+      "treatment": "Improve drainage, apply fungicide",
+      "color_triggers": ["black", "brown"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
