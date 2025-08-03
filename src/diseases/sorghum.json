@@ -1,1 +1,20 @@
-
+{
+  "name": "Sorghum",
+  "local_name": "Sorgo",
+  "diseases": [
+    {
+      "id": "sorghum_smut",
+      "symptoms": "Black swellings in place of grain",
+      "treatment": "Use treated seeds, rotate crops",
+      "color_triggers": ["black"]
+    },
+    {
+      "id": "leaf_blight",
+      "symptoms": "Elliptical lesions on leaves",
+      "treatment": "Apply fungicide, remove infected leaves",
+      "color_triggers": ["brown"],
+      "shape_triggers": ["elliptical"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
