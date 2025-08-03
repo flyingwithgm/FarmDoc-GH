@@ -1,1 +1,19 @@
-
+{
+  "name": "Cashew",
+  "local_name": "Akaju",
+  "diseases": [
+    {
+      "id": "cashew_anthracnose",
+      "symptoms": "Black lesions on flowers and nuts",
+      "treatment": "Apply fungicide, prune infected branches",
+      "color_triggers": ["black", "brown"]
+    },
+    {
+      "id": "powdery_mildew",
+      "symptoms": "White powdery coating on leaves",
+      "treatment": "Improve air circulation, apply sulfur spray",
+      "color_triggers": ["white"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
