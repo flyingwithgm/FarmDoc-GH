@@ -1,1 +1,19 @@
-
+{
+  "name": "Pineapple",
+  "local_name": "Ananase",
+  "diseases": [
+    {
+      "id": "heart_rot",
+      "symptoms": "Yellowing and rotting of central leaves",
+      "treatment": "Improve drainage, remove infected plants",
+      "color_triggers": ["yellow", "brown"]
+    },
+    {
+      "id": "pink_disease",
+      "symptoms": "Pink discoloration of fruit, soft rot",
+      "treatment": "Improve air circulation, remove infected parts",
+      "color_triggers": ["pink"]
+    }
+  ],
+  "built_on": "Tecno Pop 9 by George Nuyekpe"
+}
